@@ -15,7 +15,6 @@
 {
     _asset = asset;
     // 获取资源图片的 fullScreenImage
-    UIImage *contentImage = nil;
 #if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_0
     PHImageRequestOptions *option = [[PHImageRequestOptions alloc] init];
     //仅显示缩略图，不控制质量显示
