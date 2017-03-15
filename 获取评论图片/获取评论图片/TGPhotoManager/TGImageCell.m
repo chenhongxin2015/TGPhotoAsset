@@ -44,6 +44,7 @@
 
 
 //裁剪图片,此处裁剪为125*125大的图,即为我们的缩略图
+/*
 - (UIImage *)wf_thumbnailsCutfullPhoto:(UIImage*)fullPhoto
 {
     CGSize newSize;
@@ -63,8 +64,10 @@
     CGImageRelease(imageRef);
     return image;
 }
+
 - (IBAction)selectedBtn:(UIButton *)sender {
 //    sender.selected = !sender.selected;
 //    self.asset.isSelected = sender.selected;
 }
+  */
 @end
